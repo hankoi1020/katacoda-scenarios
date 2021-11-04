@@ -1,0 +1,22 @@
+{
+  "title": "AA",
+  "description": "AAAA",
+  "details": {
+    "steps": [
+      {
+        "title": "A",
+        "text": "step1.md"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "hideintro": true,
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "ubuntu:1804"
+  }
+}
