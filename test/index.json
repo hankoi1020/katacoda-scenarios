@@ -1,10 +1,10 @@
 {
-  "title": "AA",
-  "description": "AAAA",
+  "title": "Build up eCommerce environment",
+  "description": "Use Docker-Compose to create and configerate a eCommerce environment with MySQL and Wordpress container in Docker",
   "details": {
     "steps": [
       {
-        "title": "A",
+        "title": "Create a Docker-Compose file",
         "text": "step1.md"
       }
     ],
