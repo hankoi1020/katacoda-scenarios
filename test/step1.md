@@ -5,6 +5,10 @@ First of all, we need to make a YAML file `docker-compose.yml`
 You can get this file by execute this command
 `wget https://raw.githubusercontent.com/kenpoon2000/katacoda-scenarios/main/test/docker-compose.yml`{{execute}}
 
+After download the yml file, you can start up the applications by execute command:
+`docker-compose up`{{execute}}
+
+
 <pre class="file" data-target="clipboard">
 version: '3.2' 
  
