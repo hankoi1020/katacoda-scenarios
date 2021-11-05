@@ -3,7 +3,7 @@ Docker-Compose can define and run multi-container by using a YAML file to config
 First of all, we need to make a YAML file `docker-compose.yml`
 
 You can get this file by execute this command
-`git clone https://raw.githubusercontent.com/kenpoon2000/katacoda-scenarios/main/test/docker-compose.yml`{{execute}}
+`wget https://raw.githubusercontent.com/kenpoon2000/katacoda-scenarios/main/test/docker-compose.yml`{{execute}}
 
 <pre class="file" data-target="clipboard">
 version: '3.2' 
