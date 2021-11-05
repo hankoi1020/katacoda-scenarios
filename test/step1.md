@@ -9,7 +9,7 @@ version: '3.2'
 services: 
     mysql-server: 
         container_name: mysql 
-        ports: 
+        ports:
             - "13306:3306"      
         environment: 
             MYSQL_ROOT_PASSWORD: secret 
@@ -29,5 +29,4 @@ services:
             WORDPRESS_DB_PASSWORD: secret 
         depends_on: 
             - mysql-server
-
-</pre>{{copy}}
+</pre>
