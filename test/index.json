@@ -6,12 +6,11 @@
       {
         "title": "Create a Docker-Compose file",
         "text": "step1.md"
-      }
-	  
-	  {
+      },	  
+      {
         "title": "Descript of Docker-Compose file",
         "text": "step2.md"		  		 
-	  }
+      }
     ],
     "finish": {
       "text": "finish.md"
