@@ -2,14 +2,13 @@ Docker-Compose can define and run multi-container by using a YAML file to config
 
 First of all, we need to make a YAML file "docker-compose.yml"
 
-<pre class="file">
-
+<pre class="file" data-target="clipboard">
 version: '3.2' 
  
 services: 
     mysql-server: 
         container_name: mysql 
-        ports:
+        ports: 
             - "13306:3306"      
         environment: 
             MYSQL_ROOT_PASSWORD: secret 
