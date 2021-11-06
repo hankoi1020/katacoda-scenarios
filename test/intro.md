@@ -1,5 +1,5 @@
-## What we gonna do?
-This tutorial is using Docker to help you know about eCommerce environment in our company.
+## Objective
+This tutorial is using Docker to help you know about the eCommerce environment in our company.
 Don't worry!! We will teach you Step By Step!! You don't even need to type any command!
 
 ## What is Docker?
@@ -17,7 +17,12 @@ WordPress is a open source application using PHP and MySQL to build website. It 
 Our company is using a well-known plug in extention call WooCommerce to support the eCommerce platform.
 
 ## WooCommerce: https://wordpress.org/plugins/woocommerce/
+WooCommerce is a extention to help company manage eCommerce website in Wordpress.
 
+Company can customize the webpages like a standrad eCommerce webpage nowaday by WooCommerce.
+It easy to use and user friendly! It contain bussiness functions to adept bussiness into eCommerce like payment, shipping and tax.
 
 ## MySQL: https://www.mysql.com/
-Our company also setup a backend database system using MySQL.
+Our company also setup a backend database system using MySQL..
+MySQL is a open source application provide fully managed database service to deploy applications.
+This system contain all data of the website whatever it sensitive or not. 
