@@ -7,9 +7,13 @@ One of the function of Docker is Docker-Compose, it can create a stack that allo
 User can also do pre-configureations for applications in the docker-compose.yml file.
 
 Our company are using WordPress with WooCommerce function as eCommerce platform. 
-WordPress: 
+WordPress: https://wordpress.org/
 
+WordPress is a open source application using PHP and MySQL to build website. It contain template processor and web template system to help user learn and build their website. There is also support plug in extentions created by other user to let user add functions that whatever they want.
 
-WooCommerce:
+Our company is using a well-known plug in extention call WooCommerce to support the eCommerce platform.
+
+WooCommerce: https://wordpress.org/plugins/woocommerce/
+
 
 Our company also setup a backend database system using MySQL.
