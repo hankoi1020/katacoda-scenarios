@@ -1,4 +1,4 @@
-We use Docker to create the eCommerce environment 
+</h2>This tutorial is using Docker to create the eCommerce environment </h2>
 
 Docker is a development platform for developing, shipping and running services/applications.
 It create containers for each applications seperately.
