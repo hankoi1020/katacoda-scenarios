@@ -1,30 +1,19 @@
-Create company user:
-
-Create user Admin which has all power in Company database and password as "password".
-
-`create user 'admin'@'localhost' identified by 'password';`{{execute}}
-
-Grant all privileges:
-
-`grant all privileges on Company.* to 'admin'@'localhost';`{{execute}}
- 
-Create user Manager which has all power exclude DROP in Company database
-
-`create user 'manager'@'localhost' identified by 'password';`{{execute}}
-
-`grant create,DELETE,INSERT,SELECT,UPDATE on Company.* to 'manager'@'localhost';`{{execute}}
+Go to `Create` and press `Import`
 
 
-Create user Sale which can insert customer information, insert,update and select product information and orders.
+![圖片](https://user-images.githubusercontent.com/74434769/141006949-3357a668-708a-4c6c-ae0a-c5f317c20e68.png)
 
-`create user 'sale'@'localhost' identified by 'password';`{{execute}}
+Enter `7991` which is id of 2MySQL Simple Dashboard and click `Load`
 
-`grant INSERT on Company.customer to 'sale'@'localhost';`{{execute}}
+![圖片](https://user-images.githubusercontent.com/74434769/141007052-582afa62-26fa-4ea3-8369-91276daac400.png)
 
-`grant INSERT,UPDATE,SELECT on Company.product to 'sale'@'localhost';`{{execute}}
 
-`grant INSERT, UPDATE, SELECT on Company.orders to 'sale'@'localhost';`{{execute}}
+Data source select `MySQL` which is we just created and press `Import` 
 
-After grant a privilege, reload the grant table by using this command
+![圖片](https://user-images.githubusercontent.com/74434769/141007268-e6285e89-7056-48dd-aefc-561e195b018a.png)
 
-`FLUSH PRIVILEGES;`{{execute}}
+After that, you may see a lot of grapth with no data
+
+![圖片](https://user-images.githubusercontent.com/74434769/141007455-1584d9f1-3e92-4c32-897d-042105ea9938.png)
+
+Don't worry, now we gonna set up the collector to get those data into dashboard
