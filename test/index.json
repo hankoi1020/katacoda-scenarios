@@ -4,27 +4,27 @@
   "details": {
     "steps": [
       {
-        "title": "Create a Docker-Compose file",
+        "title": "Create a Docker-Compose file and run MySQL",
         "text": "step1.md"
       },	  
       {
-        "title": "MySQL User Privileges",
+        "title": "Create a company scenario in MySQL",
         "text": "step2.md"		  		 
       },
       {
-        "title": "MySQL User Privileges",
+        "title": "Create company user and GRANT privileges",
         "text": "step3.md"		  		 
       },
       {
-        "title": "MySQL User Privileges",
+        "title": "Sale user privileges example",
         "text": "step4.md"		  		 
       },
       {
-        "title": "MySQL User Privileges",
+        "title": "Manager user privileges example",
         "text": "step5.md"		  		 
       }, 
       {
-        "title": "MySQL User Privileges",
+        "title": "Admin user privileges example",
         "text": "step6.md"		  		 
       }      
     ],
