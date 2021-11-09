@@ -27,11 +27,11 @@ Create company user:
 
 Admin has all power in Company database.
 
-create user 'admin'@'localhost' identified by 'password';
+`create user 'admin'@'localhost' identified by 'password';`{{execute}}
 
-grant all privileges on Company.* to 'admin'@'localhost';
+`grant all privileges on Company.* to 'admin'@'localhost';`{{execute}}
 
-FLUSH PRIVILEGES;
+`FLUSH PRIVILEGES;`{{execute}}
  
 Create user Manager which has all power exclude drop in Company database.
 
