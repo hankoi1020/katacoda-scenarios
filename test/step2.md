@@ -1,6 +1,6 @@
 Let create a simple company scenario in MySQL by create different user.
 
-Go in the mysql container bash
+Open the mysql container interactive bash terminal
 
  `docker exec -it mysql /bin/sh`{{execute}}
  
@@ -12,9 +12,9 @@ Login into MySql as root
  
 Create database Company with tables.
 
-`create database Company;`
+`create database Company;`{{execute}}
 
-`use Company`;
+`use Company;`{{execute}}
 
 `CREATE TABLE product(id int, name VARCHAR(20), price int, description varchar(50));`{{execute}}
 
