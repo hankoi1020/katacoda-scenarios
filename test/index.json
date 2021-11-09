@@ -22,7 +22,11 @@
       {
         "title": "MySQL User Privileges",
         "text": "step5.md"		  		 
-      }       
+      }, 
+      {
+        "title": "MySQL User Privileges",
+        "text": "step6.md"		  		 
+      }      
     ],
     "finish": {
       "text": "finish.md"
