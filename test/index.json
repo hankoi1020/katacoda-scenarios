@@ -14,7 +14,15 @@
       {
         "title": "MySQL User Privileges",
         "text": "step3.md"		  		 
-      }      
+      },
+      {
+        "title": "MySQL User Privileges",
+        "text": "step4.md"		  		 
+      },
+      {
+        "title": "MySQL User Privileges",
+        "text": "step5.md"		  		 
+      }       
     ],
     "finish": {
       "text": "finish.md"
