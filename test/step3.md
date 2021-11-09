@@ -1,20 +1,19 @@
 Create company user:
 
-Admin has all power in Company database.
+Create user Admin which has all power in Company database and password as "password".
 
 `create user 'admin'@'localhost' identified by 'password';`{{execute}}
 
-`grant all privileges on Company.* to 'admin'@'localhost';`{{execute}}
+Grant all privileges:
 
-`FLUSH PRIVILEGES;`{{execute}}
+`grant all privileges on Company.* to 'admin'@'localhost';`{{execute}}
  
-Create user Manager which has all power exclude drop in Company database.
+Create user Manager which has all power exclude DROP in Company database
 
 `create user 'manager'@'localhost' identified by 'password';`{{execute}}
 
 `grant create,DELETE,INSERT,SELECT,UPDATE on Company.* to 'manager'@'localhost';`{{execute}}
 
-`FLUSH PRIVILEGES;`{{execute}}
 
 Create user Sale which can insert customer information, insert,update and select product information and orders.
 
@@ -25,5 +24,7 @@ Create user Sale which can insert customer information, insert,update and select
 `grant INSERT,UPDATE,SELECT on Company.product to 'sale'@'localhost';`{{execute}}
 
 `grant INSERT, UPDATE, SELECT on Company.orders to 'sale'@'localhost';`{{execute}}
+
+After grant a privilege, reload the grant table by using this command
 
 `FLUSH PRIVILEGES;`{{execute}}
