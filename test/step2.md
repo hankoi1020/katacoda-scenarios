@@ -16,82 +16,70 @@ Create database Company with tables.
 
 `use Company;`{{execute}}
 
+Create table Product, Customer and Orders
+
 `CREATE TABLE product(id int, name VARCHAR(20), price int, description varchar(50));`{{execute}}
 
 `create table customer(id int,name varchar(20), phone varchar(8), address varchar(50));`{{execute}}
 
 `create table orders(id int,customer_id int,product_id int,volume int,price int,sale_id int);`{{execute}}
- 
- 
 
 
 
 
-Logout root
+Login as Manager
 
-`quit`{{execute}}
+`mysql -umanager -p`{{execute}}
 
-Login as sale
-
-`mysql -usale -p`{{execute}}
+Enter password
 
 `password`{{execute}}
 
-Show the available databases, you can see there is only 2 is available for user sale
+Show the available databases
 
 `show databases;`{{execute}}
 
-Use database Company
+Select Company database
 
 `use Company`{{execute}}
 
-Show the available tables
+Show available tables
 
 `show tables;`{{execute}}
 
-Select customer information (Should be denied because sale only can insert)
+Insert new customer
+
+`insert into customer (id, name, phone, address) value (2,'ben',87654321,'address2');`{{execute}}
+
+Try to check the data in customer
 
 `select * from customer;`{{execute}}
 
-Insert new customer
-
-`insert into customer (id, name, phone, address) value (1,'ken',12345678,'address');`{{execute}}
-
-Insert new order
-
-`insert into orders(id,customer_id,product_id,volume,price,sale_id) value (1,1,1,5,100,1);`{{execute}}
-
-Check the inserted order
+View the data in orders
 
 `select * from orders;`{{execute}}
 
-Update the order
-
-`update orders set price=50 where id=1;`{{execute}}
-
-Check
-
-`select * from orders;`{{execute}}
-
-Try to delete order (Should be denied because sale only allow Insert,Update and Select)
+Try to delete orders 1 sale just created
 
 `delete from orders where id=1;`{{execute}}
 
-Try the same case in product table.
+Check the order whether deleted or not
 
-Insert
+`select * from orders;`{{execute}}
 
-`insert into product(id,name,price,description) value(1,'cake',100,'cheese');`{{execute}}
+View the data in product
 
-Select
+`select * from product`{{execute}}
 
-`select * from product;`{{execute}}
-
-Delete
+Try to delete product id 1
 
 `delete from product where id=1;`{{execute}}
 
-Try to drop all the tables and database.
+Check whether deleted or not
+
+`select * from product`{{execute}}
+
+Try to DROP the tables and databases:
 
 `drop table product;`{{execute}}
 
@@ -101,31 +89,9 @@ Try to drop all the tables and database.
 
 `drop database Company;`{{execute}}
 
-You can see sale cannot delete any data and drop anything due to sale are not granted any DELETE and DROP privileges.
+Logout Manager
 
-Logout sale
-
-`exit`{{execute}}
-
-
-
-mysql -umanager -p
-password
-
-show databases;
-use Company
-show tables;
-insert into customer (id, name, phone, address) value (2,'ben',87654321,'address2');
-select * from customer;
-select * from orders;
-delete from orders where id=1;
-select * from orders;
-select * from product
-delete from product where id=1;
-drop table product;
-drop table customer;
-drop table orders;
-drop database Company;
+`quit`{{execute}}
 
 
 
