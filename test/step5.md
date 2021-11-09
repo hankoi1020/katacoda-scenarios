@@ -50,6 +50,10 @@ Check whether deleted or not
 
 `select * from product`{{execute}}
 
+Try to create a table TEST
+
+`create table test(id int, number int);`{{execute}}
+
 Try to DROP the tables and databases:
 
 `drop table product;`{{execute}}
