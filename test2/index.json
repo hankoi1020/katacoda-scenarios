@@ -1,10 +1,10 @@
 {
-  "title": "Database privilege",
-  "description": "Create a company user privilege scenario in MySQL to understand database privilege granting",
+  "title": "Database Auditing",
+  "description": "Set up a auditing application and apply in MySQL",
   "details": {
     "steps": [
       {
-        "title": "Run MySQL image in Docker",
+        "title": "Install Grafana ",
         "text": "step1.md"
       },	  
       {
