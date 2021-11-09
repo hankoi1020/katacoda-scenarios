@@ -8,9 +8,13 @@
         "text": "step1.md"
       },	  
       {
-        "title": "MySQL Security",
+        "title": "MySQL User Privileges",
         "text": "step2.md"		  		 
-      }
+      },
+      {
+        "title": "MySQL User Privileges",
+        "text": "step3.md"		  		 
+      }      
     ],
     "finish": {
       "text": "finish.md"
