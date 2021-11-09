@@ -1,4 +1,16 @@
-Set up grafana
+Open a new terminal to grant privilege to granfana in database
+
+Open the interactive bash
+
+`docker exec -it mysql /bin/sh`{{execute}}
+
+Login to MySQL as Root user
+
+`mysql -uroot -p12345`{{execute}}
+
+`grant all on *.* to 'grafana'@'%';`{{execute}}
+
+
 
 After Grafana installed, get in Grafana interface by this link and do the basic setup
 
