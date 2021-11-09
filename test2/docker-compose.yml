@@ -2,6 +2,7 @@ version: '3.2'
 
 services: 
     db1: 
+        container_name: mysql    
         ports:
             - "33060:3306"
         environment: 
