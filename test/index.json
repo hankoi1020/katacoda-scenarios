@@ -1,10 +1,10 @@
 {
-  "title": "Build up eCommerce environment",
-  "description": "Use Docker-Compose to create and configerate a eCommerce environment with MySQL and Wordpress container in Docker",
+  "title": "Database privilege",
+  "description": "Create a company user privilege scenario in MySQL to understand database privilege granting",
   "details": {
     "steps": [
       {
-        "title": "Create a Docker-Compose file and run MySQL",
+        "title": "Run MySQL image in Docker",
         "text": "step1.md"
       },	  
       {
