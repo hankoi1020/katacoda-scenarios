@@ -40,7 +40,7 @@ Check the order whether deleted or not
 
 View the data in product
 
-`select * from product`{{execute}}
+`select * from product;`{{execute}}
 
 Try to delete product id 1
 
