@@ -28,4 +28,8 @@ Press `Add data source` and search MySQL and select it
 
 ![圖片](https://user-images.githubusercontent.com/74434769/141003949-9c8003f7-4282-460d-ad2b-9b394c9ba767.png)
 
+Setting as this, password of grafana is 12345 (preset in YAML file)
 
+![圖片](https://user-images.githubusercontent.com/74434769/141006629-3bb89f4f-26a2-4774-a428-4b14ea3f0a45.png)
+
+After that, press Save&Test
