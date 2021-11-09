@@ -41,7 +41,7 @@ Create user Manager which has all power exclude drop in Company database.
 
 `FLUSH PRIVILEGES;`{{execute}}
 
-Create user Sale which can insert customer information, insert,update and select product information and oders.
+Create user Sale which can insert customer information, insert,update and select product information and orders.
 
 `create user 'sale'@'localhost' identified by 'password';`{{execute}}
 
@@ -113,7 +113,7 @@ Insert
 
 Select
 
-`select * from product`{{execute}}
+`select * from product;`{{execute}}
 
 Delete
 
