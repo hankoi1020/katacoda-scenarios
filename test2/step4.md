@@ -1,81 +1,32 @@
-Logout root
+let exit the container and download a sql file (wrote by meo) in order to create the collector
 
-`quit`{{execute}}
+exit
 
-Login as sale
+wget https://raw.githubusercontent.com/meob/my2Collector/master/my2_80.sql
 
-`mysql -usale -p`{{execute}}
+copy the file to container and rename it as my2.sql
 
-Enter password:
+docker cp my2_80.sql mysql:/my2.sql
 
-`password`{{execute}}
+go back to the container 
 
-Show the available databases, you can see there is only 2 is available for user sale
+docker -it mysql /bin/sh
 
-`show databases;`{{execute}}
+execute the sql file 
 
-Use database Company
+mysql < my2.sql -uroot -p12345
 
-`use Company`{{execute}}
+login to mysql
 
-Show the available tables
+mysql -uroot -p12345
 
-`show tables;`{{execute}}
+let see the collector my2 created or not
 
-Select customer information (Should be denied because sale only can insert)
+show databases;
 
-`select * from customer;`{{execute}}
+use my2
 
-Insert new customer
+show tables;
 
-`insert into customer (id, name, phone, address) value (1,'ken',12345678,'address');`{{execute}}
+select * from status limit 10;
 
-Insert new order
-
-`insert into orders(id,customer_id,product_id,volume,price,sale_id) value (1,1,1,5,100,1);`{{execute}}
-
-Check the inserted order
-
-`select * from orders;`{{execute}}
-
-Update the order
-
-`update orders set price=50 where id=1;`{{execute}}
-
-Check the updated order
-
-`select * from orders;`{{execute}}
-
-Try to delete order (Should be denied because sale only allow Insert,Update and Select)
-
-`delete from orders where id=1;`{{execute}}
-
-Try the same case in product table.
-
-Insert new product
-
-`insert into product(id,name,price,description) value(1,'cake',100,'cheese');`{{execute}}
-
-Check the inserted product
-
-`select * from product;`{{execute}}
-
-Try to delete data in table product 
-
-`delete from product where id=1;`{{execute}}
-
-Try to drop all the tables and database.
-
-`drop table product;`{{execute}}
-
-`drop table customer;`{{execute}}
-
-`drop table orders;`{{execute}}
-
-`drop database Company;`{{execute}}
-
-You can see sale cannot delete any data and drop anything due to sale are not granted any DELETE and DROP privileges.
-
-Logout sale
-
-`exit`{{execute}}
