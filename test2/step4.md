@@ -4,6 +4,10 @@ Let exit the container and download a sql file (wrote by meo) in order to create
 
 `wget https://raw.githubusercontent.com/meob/my2Collector/master/my2_80.sql`{{execute}}
 
+If you interested, you may view the my2_80.sql in this link"
+
+https://raw.githubusercontent.com/meob/my2Collector/master/my2_80.sql
+
 Copy the file to container and rename it as my2.sql
 
 `docker cp my2_80.sql mysql:/my2.sql`{{execute}}
@@ -32,9 +36,8 @@ Show the tables in the collector
 
 You may see there are 2 tables name `current` and `status`
 
-Current is the current status of the database system, it contain a lot of status information of the system
-
-Status is storing information collected from Current with each collect time
+- **Current** is the current status of the database system, it contain a lot of status information of the system
+- **Status** is storing information collected from Current with each collect time
 
 You may peek the data in table status by this command, you could also change the limit number whatever you want to peek more data row
 
