@@ -1,4 +1,4 @@
-Let exit the container and download a sql file (wrote by meo) in order to create the collector
+Let exit the container and download a sql file (wrote by meo:https://github.com/meob/my2Collector) in order to create the collector
 
 `exit`{{execute}}
 
