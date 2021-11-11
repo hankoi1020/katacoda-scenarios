@@ -4,31 +4,31 @@
   "details": {
     "steps": [
       {
-        "title": "Install Grafana ",
+        "title": "Install MySQL and Grafana ",
         "text": "step1.md"
       },	  
       {
-        "title": "Create a company scenario in MySQL",
+        "title": "Set up Grafana datasource",
         "text": "step2.md"		  		 
       },
       {
-        "title": "Create company user and GRANT privileges",
+        "title": "Set up 2MySQL Simple Dashboard in Grafana",
         "text": "step3.md"		  		 
       },
       {
-        "title": "Sale user privileges example",
+        "title": "Install 2MySQL collector into MySQL",
         "text": "step4.md"		  		 
       },
       {
-        "title": "Manager user privileges example",
+        "title": "Check the dashboard in Grafana",
         "text": "step5.md"		  		 
       }, 
       {
-        "title": "Admin user privileges example",
+        "title": "Apply alert rule",
         "text": "step6.md"		  		 
       },
       {
-        "title": "Admin user privileges example",
+        "title": "Sample output",
         "text": "step7.md"		  		 
       }      
     ],
