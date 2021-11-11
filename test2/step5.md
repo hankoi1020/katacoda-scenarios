@@ -1,6 +1,4 @@
-The collector are already created
-
-Now you can go back to the Grafana My2 dashbroad 
+## Go to the Grafana My2 dashboard 
 
 https://[[HOST_SUBDOMAIN]]-3000-[[KATACODA_HOST]].environments.katacoda.com/
 
@@ -17,29 +15,31 @@ You may also select the time range and refresh time by clicking this on top righ
 ![圖片](https://user-images.githubusercontent.com/74434769/141320285-bd11ac8b-1114-46df-8b45-8b3def7e0b4a.png)
 
 
-Threads & Errors
+## Dashboard explainations
 
-Threads_connected: the currently open connections
+**Threads & Errors**
 
-Threads_running: Currently open connections which are not sleeping
+- **Threads_connected:** the currently open connections
 
-Slow_queries: Number of queries that take a lot of time to execute
+- **Threads_running:** Currently open connections which are not sleeping
 
-Aborted_connects: Number of fail attempts to login the database
+- **Slow_queries:** Number of queries that take a lot of time to execute
 
-Aborted_clients: Connetions aborted that client not close properly
+- **Aborted_connects:** Number of fail attempts to login the database
 
-Space Usage:
+- **Aborted_clients:** Connetions aborted that client not close properly
 
-Total size of the databases used
+**Space Usage**
 
-SQL Commands/sec:
+- **Total size of the databases used**
 
-Each type of SQL commands (Delete, Insert, Select, Update) executed in every second
+**SQL Commands/sec**
 
-Network:
+- **Each type of SQL commands (Delete, Insert, Select, Update) executed in every second**
 
-Data sent or received through the network in every second
+**Network**
 
-Heatmap:
+- **Data sent or received through the network in every second**
+
+**Heatmap**
 
