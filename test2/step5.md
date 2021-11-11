@@ -1,69 +1,48 @@
-Login as Manager
+The collector are already created
 
-`mysql -umanager -p`{{execute}}
+Now you can go back to the Grafana My2 dashbroad and reload the page
 
-Enter password
+You may see the dashbroad are start showing data (It might take some time due to collector collect data every 10 minutes)
 
-`password`{{execute}}
+You may also select the time range by clicking this on top right of the page
 
-Show the available databases
+![圖片](https://user-images.githubusercontent.com/74434769/141208645-61490430-4708-4d00-b512-c256650fa6e2.png)
 
-`show databases;`{{execute}}
+Let talk about what these dashbroad are showing
 
-Select Company database
+Threads & Errors
 
-`use Company`{{execute}}
+Threads_connected 
 
-Show available tables
+Currently open connections
 
-`show tables;`{{execute}}
+Threads_running 
 
-Insert new customer
+Currently open connections which are not sleeping
 
-`insert into customer (id, name, phone, address) value (2,'ben',87654321,'address2');`{{execute}}
+Slow_queries 
 
-Try to check the data in customer
+Queries that take a lot of time to execute
 
-`select * from customer;`{{execute}}
+Aborted_connects 
 
-View the data in orders
+Fail to login the database
 
-`select * from orders;`{{execute}}
+Aborted_clients
 
-Try to delete orders 1 sale just created
+Connetion aborted that client not close properly
 
-`delete from orders where id=1;`{{execute}}
+Space Usage:
 
-Check the order whether deleted or not
+Total size of the databases used
 
-`select * from orders;`{{execute}}
+SQL Commands/sec:
 
-View the data in product
+Each type of SQL commands (Delete, Insert, Select, Update) executed in every second
 
-`select * from product;`{{execute}}
+Network:
 
-Try to delete product id 1
+Data sent or received through the network in every second
 
-`delete from product where id=1;`{{execute}}
+Heatmap:
 
-Check whether deleted or not
-
-`select * from product`{{execute}}
-
-Try to create a table TEST
-
-`create table test(id int, number int);`{{execute}}
-
-Try to DROP the tables and databases:
-
-`drop table product;`{{execute}}
-
-`drop table customer;`{{execute}}
-
-`drop table orders;`{{execute}}
-
-`drop database Company;`{{execute}}
-
-Logout Manager
-
-`quit`{{execute}}
