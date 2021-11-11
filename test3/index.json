@@ -4,11 +4,11 @@
   "details": {
     "steps": [
       {
-        "title": "",
+        "title": "Install MySQL and Wordpress with Docker-compose",
         "text": "step1.md"
       },	  
       {
-        "title": "",
+        "title": "Set up Wordpress",
         "text": "step2.md"		  		 
       },
       {
