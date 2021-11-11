@@ -1,10 +1,10 @@
 {
-  "title": "Database privilege",
+  "title": "Workpress",
   "description": "Create a company user privilege scenario in MySQL to understand database privilege granting",
   "details": {
     "steps": [
       {
-        "title": "Run MySQL image in Docker",
+        "title": "Run MySQL and Workpress image in Docker",
         "text": "step1.md"
       },	  
       {
