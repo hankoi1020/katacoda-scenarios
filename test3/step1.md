@@ -8,6 +8,15 @@ You can get this file by execute this command
 After download the yml file, you can start up the applications by execute command:
 `docker-compose up`{{execute}}
 
+
+
+
+https://[[HOST_SUBDOMAIN]]-20080-[[KATACODA_HOST]].environments.katacoda.com/
+
+
+
+
+
 <pre>
 version: '3.2' 
  
