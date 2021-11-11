@@ -1,3 +1,7 @@
+This example is going to use UpdraftPlus to backup the Website and Database
+
+
+## Installation
 
 Go to Plugins > click Add New and search UpdraftPlus
 
@@ -5,6 +9,7 @@ Install and Activate
 
 ![圖片](https://user-images.githubusercontent.com/74434769/141376501-758cd27b-acab-4ef3-a3e5-21ec9d7279bc.png)
 
+## Configuration
 
 Click **Press here to start**
 
@@ -31,6 +36,8 @@ Choose what you want to backup
 
 Press Save Changes after the configuration
 
+## Backup the Website and Database
+
 Click Backup/Restore,now you can backup website and database by clicking Backup Now button 
 
 ![圖片](https://user-images.githubusercontent.com/74434769/141377598-ac01b581-0acb-4774-9954-0dbe0953a6ff.png)
@@ -48,6 +55,8 @@ Also you may see the backup in Existing backups (or your connected platform)
 You can see what type of backup data and the date
 
 ![圖片](https://user-images.githubusercontent.com/74434769/141378123-140e01d2-9619-495d-8a65-6a382443edb2.png)
+
+## Restore Backup
 
 Now we can restore the backup data 
 
