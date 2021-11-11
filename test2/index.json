@@ -6,6 +6,7 @@
       {
         "title": "Install Grafana ",
         "text": "step1.md"
+        "verify": "verify.sh"
       },	  
       {
         "title": "Create a company scenario in MySQL",
