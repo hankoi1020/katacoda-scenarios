@@ -1,4 +1,4 @@
-We use Docker-Compose to create multiple container (MySQL, Grafana) at the sam time 
+We use Docker-Compose to create multiple container (MySQL, Grafana) at the same time 
 
 We install MySQL and Grafana by Docker using YAML file `docker-compose.yml`
 
@@ -14,21 +14,21 @@ After download the yml file, you can start up the applications by execute comman
 YAML code:
 
 <pre class="file" data-target="clipboard">
-version: '3.9' 
+version: '3.2' 
 
 services: 
     db1: 
+        container_name: mysql    
         ports:
             - "33060:3306"
         environment: 
-            MYSQL_ROOT_PASSWORD: 12345 #Password for root user in MySQL
-            MYSQL_DATABASE: wordpress   #Create a database for Wordpress 
-            MYSQL_USER: wordpress  #Create a Wordpress user in MySQL
-            MYSQL_PASSWORD: 12345      #Password for wordpress_user            
-        image: mysql/mysql-server       
-            
+            MYSQL_ROOT_PASSWORD: 12345   #Root user password
+            MYSQL_USER: grafana
+            MYSQL_PASSWORD: 12345        #grafana user password
+        image: mysql/mysql-server  
+        
     grafana:
         image: grafana/grafana:latest 
         ports: 
-            - "3000:3000"        
+            - "3000:3000"     
 </pre>
