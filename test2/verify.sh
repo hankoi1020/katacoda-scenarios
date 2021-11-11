@@ -1,1 +1,3 @@
- echo "done"
+#!/bin/bash
+
+[ -d /home/scrapbook/tutorial/.git ] && echo "done"
