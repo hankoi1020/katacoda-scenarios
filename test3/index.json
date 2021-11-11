@@ -1,34 +1,34 @@
 {
-  "title": "Wordpress",
-  "description": "Create a company user privilege scenario in MySQL to understand database privilege granting",
+  "title": "Wordpress Protection and Auditing with plugin",
+  "description": "Install Wordpress plugins to protect and monitor the website",
   "details": {
     "steps": [
       {
-        "title": "Run MySQL and Workpress image in Docker",
+        "title": "",
         "text": "step1.md"
       },	  
       {
-        "title": "Create a company scenario in MySQL",
+        "title": "",
         "text": "step2.md"		  		 
       },
       {
-        "title": "Create company user and GRANT privileges",
+        "title": "",
         "text": "step3.md"		  		 
       },
       {
-        "title": "Sale user privileges example",
+        "title": "",
         "text": "step4.md"		  		 
       },
       {
-        "title": "Manager user privileges example",
+        "title": "",
         "text": "step5.md"		  		 
       }, 
       {
-        "title": "Admin user privileges example",
+        "title": "",
         "text": "step6.md"		  		 
       },
       {
-        "title": "Admin user privileges example",
+        "title": "",
         "text": "step7.md"		  		 
       }      
     ],
