@@ -1,5 +1,10 @@
+## Installation
+
+Go to Plugins > Add new and search WP Cerber, install and activate it.
 
 ![圖片](https://user-images.githubusercontent.com/74434769/141387473-6787f54e-786c-4135-8302-b647de8ec8a0.png)
+
+After that, you may go in WP Cerber interface by this button in left hand side.
 
 ![圖片](https://user-images.githubusercontent.com/74434769/141547383-7e103087-34c1-4705-b9bd-f5136af8fcad.png)
 
