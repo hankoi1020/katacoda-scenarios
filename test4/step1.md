@@ -1,12 +1,12 @@
-Docker-Compose can define and run multi-container by using a YAML file to configure the containers.
+Docker-Compose can define and run multi-container by using a YAML file to configure the containers. 
 
-Get docker-compose.yml file by execute this command
+Get `docker-compose.yml` file by execute this command
 
-wget https://raw.githubusercontent.com/kenpoon2000/katacoda-scenarios/main/test4/docker-compose.yml{{execute}}
+`wget https://raw.githubusercontent.com/kenpoon2000/katacoda-scenarios/main/test3/docker-compose.yml`{{execute}}
 
 Start up MySQL and Wordpress service by execute this command, it may take some time.
 
-docker-compose up{{execute}}
+`docker-compose up`{{execute}}
 
 After everything is started, go to Wordpress interface by click this link
 
