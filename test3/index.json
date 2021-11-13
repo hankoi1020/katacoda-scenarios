@@ -1,6 +1,6 @@
 {
   "title": "Wordpress plugins",
-  "description": "Install Wordpress plugins to do GDPR, Backup, Protection and Monitoring",
+  "description": "Install Wordpress plugins to do GDPR, Backup, Protecting, Auditing, Monitoring, Detecting, Alerting",
   "details": {
     "steps": [
       {
@@ -12,27 +12,27 @@
         "text": "step2.md"		  		 
       },
       {
-        "title": "Install GDPR plugin",
+        "title": "CookieYes GDPR plugin",
         "text": "step3.md"		  		 
       },
       {
-        "title": "Install Backup plugin",
+        "title": "UpdraftPlus Backup plugin",
         "text": "step4.md"		  		 
       },
       {
-        "title": "Install Security plugin",
+        "title": "iThemes Security plugin",
         "text": "step5.md"		  		 
       }, 
       {
-        "title": "",
+        "title": "iThemes Security plugin",
         "text": "step6.md"		  		 
       },
       {
-        "title": "",
+        "title": "WP Cerber Security plugin",
         "text": "step7.md"		  		 
       },
       {
-        "title": "",
+        "title": "WP Cerber Security plugin",
         "text": "step8.md"		  		 
       }       
     ],
