@@ -39,7 +39,3 @@ User can find and configure these security function in the **Main Settings** pag
 - **Two-factor authentication** : In User Policies session, it provide Two-factor authentication function to protect user account.
 ![圖片](https://user-images.githubusercontent.com/74434769/141597298-49ebc6cf-35d1-42ca-986d-540cab135afa.png)
 
-
-
-- **Site Integrity** : This session provide security scanner to scan files in the server to find whether the malicious file or application exist. 
-![圖片](https://user-images.githubusercontent.com/74434769/141597021-ca6f35ed-8910-4c26-8983-47f75718bb71.png)
