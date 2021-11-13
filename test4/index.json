@@ -1,0 +1,48 @@
+{
+  "title": "Explore Wordpress WooCommerce",
+  "description": "",
+  "details": {
+    "steps": [
+      {
+        "title": "",
+        "text": "step1.md"
+      },	  
+      {
+        "title": "",
+        "text": "step2.md"		  		 
+      },
+      {
+        "title": "",
+        "text": "step3.md"		  		 
+      },
+      {
+        "title": "",
+        "text": "step4.md"		  		 
+      },
+      {
+        "title": "",
+        "text": "step5.md"		  		 
+      }, 
+      {
+        "title": "",
+        "text": "step6.md"		  		 
+      },
+      {
+        "title": "",
+        "text": "step7.md"		  		 
+      }      
+    ],
+    "finish": {
+      "text": "finish.md"
+    },
+    "intro": {
+      "text": "intro.md"
+    }
+  },
+  "environment": {
+    "uilayout": "editor-terminal"
+  },
+  "backend": {
+    "imageid": "ubuntu:1804"
+  }
+}
