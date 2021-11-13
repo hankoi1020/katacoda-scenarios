@@ -1,34 +1,17 @@
 ## Objective
-This tutorial is using Docker to help you know about the eCommerce environment in our company.
 
-Don't worry!! We will teach you Step By Step!! You don't even need to type any command!
+Install Wordpress Plugins to protact website.
 
-## What is Docker?
-Docker is a development platform for developing, shipping and running services/applications.
+Using those different type of plugins to handle protential risks and prevent it occurr. 
 
-It create containers for each applications seperately.
+## What is Wordpress?
 
-One of the function of Docker is Docker-Compose, it can create a stack that allow more than one application create/run at the same time by writing a YMAL file.
+An application provide a platform to design website. We will install it using Docker.
 
-User can also do pre-configureations for applications in the docker-compose.yml file.
+## Protential risk for the website
 
-## WordPress: https://wordpress.org/
-Our company are using WordPress with WooCommerce function as eCommerce platform.
-
-WordPress is a open source application using PHP and MySQL to build website. It contain template processor and web template system to help user learn and build their website. There is also support plug in extentions created by other user to let user add functions that whatever they want.
-
-Our company is using a well-known plug in extention call WooCommerce to support the eCommerce platform.
-
-## WooCommerce: https://wordpress.org/plugins/woocommerce/
-WooCommerce is a extention to help company manage eCommerce website in Wordpress.
-
-Company can customize the webpages like a standrad eCommerce webpage nowaday by WooCommerce.
-
-It easy to use and user friendly! It contain bussiness functions to adept bussiness into eCommerce like payment, shipping and tax.
-
-## MySQL: https://www.mysql.com/
-Our company also setup a backend database system using MySQL.
-
-MySQL is a open source application provide fully managed database service to deploy applications.
-
-This system contain all data of the website whatever it sensitive or not. 
+- **Lack of compliance to GDPR** : No policies to proccess user data which compliance to GDPR
+- **Data lost** : Once data lost there is no backup data to recover
+- **Subject to attack** : It may have internal attack like malicious user, file, software. In external case, there have Brute force attack, code/SQL injection, Spam etc
+- **Lack of monitoring** : Not enough Auditing, Monitoring, Detecting and Alerting of the website status and activities. 
+- **Lack of management** : Not enough policies to help user protect themselves like Password policy, two-factor authentication.
