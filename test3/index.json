@@ -30,7 +30,11 @@
       {
         "title": "",
         "text": "step7.md"		  		 
-      }      
+      },
+      {
+        "title": "",
+        "text": "step8.md"		  		 
+      }       
     ],
     "finish": {
       "text": "finish.md"
