@@ -16,3 +16,16 @@ After select a activity type, press filter. You may see a Create Alert button in
 
 ![圖片](https://user-images.githubusercontent.com/74434769/141600202-6fe031bb-8e26-42f6-9019-a94d3a285d5a.png)
 
+## Compliance of GDPR
+
+- **Delete Personal data** : In the User Policies session, go to Global page and there has a Personal Data function. It can enable the data erase and terminate user sessions.
+
+![圖片](https://user-images.githubusercontent.com/74434769/141600728-95723943-019a-4775-b2b1-d628089bc07d.png)
+
+After enable it, there will has a Erase Personal Data page in Tools. Website owner can request user to erase user personal data by email address. It can also send a confirmation email.
+
+![圖片](https://user-images.githubusercontent.com/74434769/141600775-839d81fd-de69-4ff0-954d-13b79d09802b.png)
+
+![圖片](https://user-images.githubusercontent.com/74434769/141600938-951d253b-6a9f-458d-aea1-71d3a3021754.png)
+
+Therefore, the website can be compliance of GDPR by this function.
