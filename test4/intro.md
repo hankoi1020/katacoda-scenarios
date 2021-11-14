@@ -30,3 +30,15 @@ Our company also setup a backend database system using MySQL.
 MySQL is a open source application provide fully managed database service to deploy applications.
 
 This system contain all data of the website whatever it sensitive or not. 
+
+## General Data Protection Regulation (GDPR)
+
+GDPR require to fufill various data subjects rights:
+
+- **Access**
+- **Rectification**
+- **Erasure**
+- **Restrict processing**
+- **Portability**
+- **Object**
+- **Not to be subject to a decision based solely on automated processing**
