@@ -1,3 +1,5 @@
+## Grant privileges 
+
 Create company user:
 
 Create user Admin which has all power in Company database and password as "password".
