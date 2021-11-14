@@ -2,7 +2,7 @@
 
 Let create a simple company scenario in MySQL by create different user.
 
-Open the mysql container interactive bash terminal
+Open a new terminal and go in to the mysql container interactive bash terminal
 
  `docker exec -it mysql /bin/sh`{{execute}}
  
