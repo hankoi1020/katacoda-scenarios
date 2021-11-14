@@ -1,6 +1,6 @@
 {
-  "title": "Explore Wordpress WooCommerce",
-  "description": "..",
+  "title": "Explore Wordpress WooCommerce and discover user information",
+  "description": "Basic use case in WooCommerce and find senitive data in the website and database",
   "details": {
     "steps": [
       {
@@ -16,7 +16,7 @@
         "text": "step3.md"		  		 
       },
       {
-        "title": "",
+        "title": "WooCommerce use case ",
         "text": "step4.md"		  		 
       },
       {
