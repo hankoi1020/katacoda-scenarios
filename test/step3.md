@@ -1,6 +1,16 @@
 ## Grant privileges 
 
-Create company user and grant a suitable privilege by their rule
+Create company user and grant a suitable privilege by their rule:
+
+- **Create: Create tables or databases**
+- **Insert: Add new record**
+- **Update: Update a exist record**
+- **Delete: Remove a exist record**
+- **Select: View the records in tables or databases**
+- **Drop: Remove table or database**
+- **ALL: All the privileges above**
+
+
 
 Create user Admin which has all power in Company database and password as "password".
 
