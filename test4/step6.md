@@ -26,23 +26,23 @@ Open a new terminal to explore the MySQL database
 
 Go into the container by this command
 
-`docker exec -it mysql /bin/bash`
+`docker exec -it mysql /bin/bash`{{execute}}
 
 Login as root user
 
-`mysql -r -psecret`
+`mysql -r -psecret`{{execute}}
 
 Check the existing databases
 
-`show databases;`
+`show databases;`{{execute}}
 
 Use Wordpress databases, which Wordpress and WooCommerce data are stored in this database
 
-`use wordpress;`
+`use wordpress;`{{execute}}
 
 Check the existing tables
 
-`show tables;`
+`show tables;`{{execute}}
 
 You may see some tables name as wp_, wc_ at first which mean Wordpress and Woocommerce
 
@@ -50,7 +50,7 @@ The review and comment we just leave are storing in wp_comments, let see can we 
 
 Check the attributes of the table
 
-`describe wp_comments;`
+`describe wp_comments;`{{execute}}
 
 There is 15 attributes, seem it include some personal data as well like author email, ip address, website
 
@@ -58,7 +58,7 @@ There is 15 attributes, seem it include some personal data as well like author e
 
 Let try to select some data related to user
 
-`select comment_ID,comment_author,comment_author_email,comment_author_url,comment_author_IP, comment_content, comment_agent from wp_comments;`
+`select comment_ID,comment_author,comment_author_email,comment_author_url,comment_author_IP, comment_content, comment_agent from wp_comments;`{{execute}}
 
 You may see the review and comment we just post
 
