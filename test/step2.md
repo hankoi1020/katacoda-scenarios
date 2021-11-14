@@ -1,3 +1,5 @@
+## Create Company use case
+
 Let create a simple company scenario in MySQL by create different user.
 
 Open the mysql container interactive bash terminal
