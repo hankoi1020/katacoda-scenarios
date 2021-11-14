@@ -65,7 +65,7 @@ You may check the order detail by clicking the order
 
 For Shipping address, you may edit it and click load address to get the shipping address 
 
-It contain some customer information: 
+It contain some sensitive customer information: 
 
 - **Name of Bill recevier, User account, product recevier**
  
