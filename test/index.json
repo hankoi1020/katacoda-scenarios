@@ -1,6 +1,6 @@
 {
   "title": "Database privilege",
-  "description": "Create a company user privilege scenario in MySQL to understand database privilege granting",
+  "description": "Create a company user privileges scenario in MySQL to understand database privilege management",
   "details": {
     "steps": [
       {
