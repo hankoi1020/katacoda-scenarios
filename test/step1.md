@@ -14,25 +14,10 @@ version: '3.2'
  
 services: 
     mysql-server: 
-        container_name: mysql           #Specify the name
+        container_name: mysql 
         ports: 
-            - "13306:3306"              #Specify the port for this application
+            - "13306:3306"      
         environment: 
-            MYSQL_ROOT_PASSWORD: secret #Password for root user in MySQL
-            MYSQL_DATABASE: wordpress   #Create a database for Wordpress 
-            MYSQL_USER: wordpress_user  #Create a Wordpress user in MySQL
-            MYSQL_PASSWORD: secret      #Password for wordpress_user            
-        image: mysql/mysql-server       
-
-    wordpress: 
-        image: wordpress:latest 
-        container_name: wordpress 
-        ports: 
-            - "20080:80" 
-        environment: 
-            WORDPRESS_DB_HOST: mysql-server:3306   #
-            WORDPRESS_DB_USER: wordpress_user      #
-            WORDPRESS_DB_PASSWORD: secret          #
-        depends_on: 
-            - mysql-server   #                     
+            MYSQL_ROOT_PASSWORD: secret 
+        image: mysql/mysql-server                     
 </pre>
