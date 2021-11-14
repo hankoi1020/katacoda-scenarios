@@ -1,6 +1,6 @@
 {
-  "title": "Database Auditing",
-  "description": "Set up a auditing application and apply in MySQL",
+  "title": "Database Auditing, Monitoring, Alerting",
+  "description": "Set up Grafana dashboard to inspect MySQL status",
   "details": {
     "steps": [
       {
