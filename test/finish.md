@@ -1,3 +1,7 @@
-Nice! Now you can understand how to grant a suitable privilege to user.
+## What you have learned?
 
-Please continue to finish the next tutorial.
+- **Create databases/table/user**
+- **Grant privileges to user**
+- **Know about each type of privileges**
+- **Check user's privileges**
+- **Revoke privileges**
