@@ -2,9 +2,9 @@ Login as admin
 
 `mysql -uadmin -p`{{execute}}
 
-`Enter password`{{execute}}
+Enter password
 
-`password`
+`password`{{execute}}
 
 show available databases
 
