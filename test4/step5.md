@@ -65,17 +65,17 @@ You may check the order detail by clicking the order
 
 For Shipping address, you may edit it and click load address to get the shipping address 
 
-It cantain some customer information: 
+It contain some customer information: 
 
- Name of Bill recevier, User account, product recevier
+- **Name of Bill recevier, User account, product recevier**
  
- Billing address, shipping address
+- **Billing address, shipping address**
  
- Email address
+- **Email address**
  
- Phone number
+- **Phone number**
  
- IP address
+- **IP address**
 
 Click Update after finish to load the shipping address
 
