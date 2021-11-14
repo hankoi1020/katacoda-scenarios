@@ -43,3 +43,26 @@ Enable Direct bank transfer and Cash on delivery
 After that, click Save Changes
 
 ![圖片](https://user-images.githubusercontent.com/74434769/141662738-9a649ba6-a391-4e11-b082-0ec8404af63d.png)
+
+## Compliant of GDPR
+
+WooCommerce have provide function to help website fufill GDPR requirements
+
+Go to WooCommerce > Settings > Accounts & Privacy
+
+First, it include the right to erasure
+
+It can provide function to request remove personal data and access of data
+
+![圖片](https://user-images.githubusercontent.com/74434769/141665754-df7c982c-1408-4533-8611-2390557953f8.png)
+
+It provide Privacy policy fuction to let website and user have an agreement that manage their data and order
+
+![圖片](https://user-images.githubusercontent.com/74434769/141665834-965eb751-b432-4763-b33e-9da01f6c6374.png)
+
+After a period, those inactive user and order could be remove automatically since those personal data are no longer to be use 
+
+![圖片](https://user-images.githubusercontent.com/74434769/141665869-d5628990-9041-433b-bdd1-c6abbe5063fe.png)
+
+
+
