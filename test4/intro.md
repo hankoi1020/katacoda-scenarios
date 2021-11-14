@@ -1,5 +1,7 @@
 ## Objective
-
+- **Setup WooCommerce**
+- **WooCommerce use case**
+- **Discover and Identify senitive data**
 
 ## What is Docker?
 Docker is a development platform for developing, shipping and running services/applications.
@@ -42,3 +44,13 @@ GDPR require to fufill various data subjects rights:
 - **Portability**
 - **Object**
 - **Not to be subject to a decision based solely on automated processing**
+
+## Sensitive data / Personal data
+
+- **Name**
+- **Address**
+- **Email**
+- **Phone number**
+- **IP address**
+- **Device Information**
+- **Identification code/number**
