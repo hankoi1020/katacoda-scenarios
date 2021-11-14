@@ -32,4 +32,38 @@ Login as root user
 
 `mysql -r -psecret`
 
+Check the existing databases
+
+`show databases;`
+
+Use Wordpress databases, which Wordpress and WooCommerce data are stored in this database
+
+`use wordpress;`
+
+Check the existing tables
+
+`show tables;`
+
+You may see some tables name as wp_, wc_ at first which mean Wordpress and Woocommerce
+
+The review and comment we just leave are storing in wp_comments, let see can we found something
+
+Check the attributes of the table
+
+`describe wp_comments;`
+
+There is 15 attributes, seem it include some personal data as well like author email, ip address, website
+
+![圖片](https://user-images.githubusercontent.com/74434769/141664199-61dc5078-a4cb-44f8-8de8-8bc62588a1ec.png)
+
+Let try to select some data related to user
+
+`select comment_ID,comment_author,comment_author_email,comment_author_url,comment_author_IP, comment_content, comment_agent from wp_comments;`
+
+You may see the review and comment we just post
+
+These data are contain some personal data like Name, email,website, ip and the device information
+
+![圖片](https://user-images.githubusercontent.com/74434769/141664293-2e3814ce-8581-4a61-88fd-2be3eef3950a.png)
+
 
