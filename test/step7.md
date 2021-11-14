@@ -16,10 +16,11 @@ You can check the privileges of each user by input these commands
 
 `SHOW GRANTS FOR 'admin'@'localhost';`{{execute}}
 
+You can see what type of priviledge they currently have.  
 
 ## Revoke user privileges
 
-Once you find a user is too much privileges, you can revoke it
+Once you find a user has too much privileges, you can revoke it
 
 For example:
 
