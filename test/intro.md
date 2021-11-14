@@ -1,7 +1,7 @@
 ## Objective
 
+- **Walkthrough an example to understand how to grant a suitable authorization to staff**
 - **Know about the privilege rule in database with company case**
-
 - **How to manage database privilege**
 
 
