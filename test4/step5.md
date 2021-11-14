@@ -49,6 +49,37 @@ Select Cash on delivery as payment and place order
 
 ![圖片](https://user-images.githubusercontent.com/74434769/141603687-e237491a-1d04-44bc-a8ea-7f56f44fb027.png)
 
+## Write a review on the sample product page and leave a comment
+
+Go to Shop and click the sample product
+
+Click Review
+
+![圖片](https://user-images.githubusercontent.com/74434769/141664026-0a65924c-dad9-428e-9908-6e8326a9c0ad.png)
+
+Rate the product and write a review 
+
+Then, click Submit
+
+![圖片](https://user-images.githubusercontent.com/74434769/141664046-7b3c31b8-b94d-4d7b-a4d7-5146bd477ba2.png)
+
+You can see your review and the status
+
+![圖片](https://user-images.githubusercontent.com/74434769/141664073-0d91f42f-8727-49a3-aa19-27a3a9cfccf1.png)
+
+After that, go to Recent Posts and click Hello World! post
+
+![圖片](https://user-images.githubusercontent.com/74434769/141664115-b9fecae7-de4f-484a-afc9-f64851e748dc.png)
+
+Post a comment on the post
+
+![圖片](https://user-images.githubusercontent.com/74434769/141664129-da327707-a7cc-4379-849b-4aabe60a8a61.png)
+
+You can see your comment and the status
+
+![圖片](https://user-images.githubusercontent.com/74434769/141664136-9f550811-36bb-43b9-abcc-71767663af8b.png)
+
+
 ## Check the order
 
 You may login back to admin account to check the order
