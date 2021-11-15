@@ -48,7 +48,7 @@ Try to delete product id 1
 
 Check whether deleted or not
 
-`select * from product`{{execute}}
+`select * from product;`{{execute}}
 
 Try to create a table TEST
 
