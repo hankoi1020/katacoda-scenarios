@@ -16,7 +16,7 @@ Copy the file to container and rename it as my2.sql
 
 Go back to the container 
 
-`docker exec -it mysql /bin/bash`{{execute}}
+`docker exec -it mysql /bin/sh`{{execute}}
 
 Execute the sql file as root user 
 
