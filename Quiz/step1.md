@@ -19,7 +19,6 @@
 ## Markdown
 
 <pre>
-
 >>Q1: What privilege should NOT grant to sale and manager?<<
 =~= DROP ALL
 
@@ -35,6 +34,5 @@
 
 >>Q5: How to remove ken privilege created in Q2? <<
 === revoke insert on Company.customer from 'ken'@'localhost'
-
 </pre>
 
