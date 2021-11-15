@@ -1,3 +1,15 @@
+## Introduction
+
+Some as previous one, this plugin is also a security plugin, it provide different feature to protect the website as well.
+
+It can prevent from these external attacks:
+
+- **Brute force attack: It can limit the login attempts, block an ip if perform many too attempt with advance functions.** 
+- **Spam: Anti-spam engine to protect the forms from spam**
+- **Bot: It can apply reCAPTCHA on website to confirm action is perform by human**
+- **Malicious script injection: Disable PHP upload**
+
+
 ## Installation
 
 Go to Plugins > Add new and search WP Cerber, install and activate it.
