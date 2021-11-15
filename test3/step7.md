@@ -9,6 +9,16 @@ It can prevent from these external attacks:
 - **Bot: It can apply reCAPTCHA on website to confirm action is perform by human**
 - **Malicious script injection: Disable PHP upload**
 
+It also provides Auditing, Monitoring, Alerting , Detecting functions
+
+- **Provide activity log**
+- **Security scanner to detect risk insider the server, it could generate report as well**
+- **Provide traffic inspector to monitoring the activities**
+- **Notification function to alert admin once a specific event occurred**
+
+GDPR related:
+
+- **It provide the right of erasure of the user personal data**
 
 ## Installation
 
