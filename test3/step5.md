@@ -1,4 +1,22 @@
+## Introduction
 
+This plugin provide security services on wordpress website to aginst cyber attacks we just mention in introduction page.  
+
+- **DDoS: Blacklist IP to discard the request** 
+- **Brute force: IP Block and limit attempt to stop attacker attempt many login to find password**
+
+It also protect our data and user:
+
+- **Provide SSL**
+- **Password configuration and salting**
+- **Apply strong password rule**
+- **Two-factor authentication**
+
+For Audit, Monitor, Detect:
+
+- **Provide Log to record website activities**
+- **Monitoring brute force attack from outside**
+- **Site scan to detect any malicious script or application inside the server**
 
 ## Installation
 
