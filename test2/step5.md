@@ -41,5 +41,7 @@ You may also select the time range and refresh time by clicking this on top righ
 
 - **Data sent or received through the network in every second**
 
-**Heatmap**
+**Custom Statistics**
+
+- **User can custom a graph by select different variables
 
