@@ -1,5 +1,6 @@
 This example is going to use UpdraftPlus to backup the Website and Database
 
+Backups and restoration are made easier with UpdraftPlus. With over three million active installs, it is the world's highest ranked and most popular scheduled backup plugin. Back up your files and databases to the cloud. It can direct backups to Dropbox, Google Drive, Amazon S3, UpdraftVault, Rackspace Cloud, FTP, DreamObjects, Openstack Swift, and email are all available in the cloud. Back up to Microsoft OneDrive, Microsoft Azure, Google Cloud Storage, Backblaze B2, SFTP, SCP, and WebDAV with the paid version.
 
 ## Installation
 
