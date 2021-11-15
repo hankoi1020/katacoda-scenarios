@@ -64,5 +64,47 @@ After a period, those inactive user and order could be remove automatically sinc
 
 ![圖片](https://user-images.githubusercontent.com/74434769/141665869-d5628990-9041-433b-bdd1-c6abbe5063fe.png)
 
+**Create a Privacy Policy page**
 
+Go to Setting > Privacy
+
+![圖片](https://user-images.githubusercontent.com/74434769/141713531-5aca9423-c517-4616-bbcd-508b735958ae.png)
+
+Click Policy Guide 
+
+![圖片](https://user-images.githubusercontent.com/74434769/141713870-a5aa7120-167b-41de-a927-371afdda0648.png)
+
+Click WooCommerce
+
+![圖片](https://user-images.githubusercontent.com/74434769/141713913-268dca72-023e-4246-b212-21842c509106.png)
+
+Scroll down and click copy
+
+Since we using WooCommerce to create online store, we need to create a WooCommerce privacy policy as well
+
+![圖片](https://user-images.githubusercontent.com/74434769/141713971-6f3d4cab-11e9-4687-8328-a785c64c6a74.png)
+
+Go back to Settings in private page Click Create 
+
+![圖片](https://user-images.githubusercontent.com/74434769/141713620-b1a80f1f-b101-41dc-879b-5adf30f8b430.png)
+
+Since Wordpress is already design a template for you  
+
+![圖片](https://user-images.githubusercontent.com/74434769/141713697-7399b12a-b4d7-486b-b263-4da9ca04629e.png)
+
+Now scoll down and click any space, then paste(Ctrl+V) the WooCommerce policy
+
+![圖片](https://user-images.githubusercontent.com/74434769/141714995-1e219e54-e6a8-40b8-b8b8-91a9540bab15.png)
+
+Finally, click Publish
+
+![圖片](https://user-images.githubusercontent.com/74434769/141715038-c5897070-78f1-483a-8805-9a971cf449a7.png)
+
+Click view page to check out the page
+
+![圖片](https://user-images.githubusercontent.com/74434769/141715088-01e2bdd9-2779-4fdc-8648-8f32ff26a290.png)
+
+![圖片](https://user-images.githubusercontent.com/74434769/141715139-48f5d885-f31d-4bed-b687-1b9948b65c87.png)
+
+Now the website can fufill the the GDPR privacy policy requirements
 
