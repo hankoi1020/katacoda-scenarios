@@ -13,7 +13,7 @@
 >>Q4: How to see what privileges ken@localhost currently have? <<
 === show grants for 'ken'@'localhost';
 
->>Q4: How to remove ken privilege created in Q2?
+>>Q5: How to remove ken privilege created in Q2?
 === revoke insert on Company.customer from 'ken'@'localhost'
 
 ## Answar
@@ -33,7 +33,7 @@
 >>Q4: How to see what privileges ken@localhost currently have? <<
 === show grants for 'ken'@'localhost';
 
->>Q4: How to remove ken privilege created in Q2?
+>>Q5: How to remove ken privilege created in Q2?
 === revoke insert on Company.customer from 'ken'@'localhost'
 
 </pre>
