@@ -1,38 +1,22 @@
 
 ## Database Privileges Quiz
 
->>Q1: What privilege should NOT grant to sale and manager?<<
-=~= DROP ALL
-
->>Q2: Write a SQL statement to grant a privileges to ken@localhost so that ken can add new record in Company.customer<<
-=== grant insert on Company.customer to 'ken'@'localhost';
+>>Q3: Manager should have privilege to delete a database/table <<
+( ) True
+(*) False
 
 >>Q3: Manager should have privilege to delete a database/table <<
 ( ) True
 (*) False
 
->>Q4: How to see what privileges ken@localhost currently have? <<
-=== show grants for 'ken'@'localhost';
-
->>Q5: How to remove ken privilege created in Q2? <<
-=== revoke insert on Company.customer from 'ken'@'localhost'
-
-## Markdown
-
-<pre>
->>Q1: What privilege should NOT grant to sale and manager?<<
-=~= DROP ALL
-
->>Q2: Write a SQL statement to grant a privileges to ken@localhost so that ken can add new record in Company.customer<<
-=== grant insert on Company.customer to 'ken'@'localhost';
+>>Q3: Manager should have privilege to delete a database/table <<
+( ) True
+(*) False
 
 >>Q3: Manager should have privilege to delete a database/table <<
 ( ) True
 (*) False
 
->>Q4: How to see what privileges ken@localhost currently have? <<
-=== show grants for 'ken'@'localhost';
-
->>Q5: How to remove ken privilege created in Q2? <<
-=== revoke insert on Company.customer from 'ken'@'localhost'
-</pre>
+>>Q3: Manager should have privilege to delete a database/table <<
+( ) True
+(*) False
