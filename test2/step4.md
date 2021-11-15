@@ -2,6 +2,8 @@ Let exit the container and download a sql file (wrote by meo:https://github.com/
 
 `exit`{{execute}}
 
+`exit`{{execute}}
+
 `wget https://raw.githubusercontent.com/meob/my2Collector/master/my2_80.sql`{{execute}}
 
 If you interested, you may view the my2_80.sql in this link"
