@@ -50,7 +50,7 @@ WooCommerce have provide function to help website fufill GDPR requirements
 
 Go to WooCommerce > Settings > Accounts & Privacy
 
-First, it include the right to erasure
+First, it include the right to **Erasure** and **Access** 
 
 It can provide function to request remove personal data and access of data
 
