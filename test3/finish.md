@@ -1,4 +1,4 @@
-## What you have learned?
+## What you have learnt?
 - **Install Wordpress and Plugins**
 - **Set up plugin for GDPR**
 - **Set up plugin for Website Security**
