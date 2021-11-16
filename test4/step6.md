@@ -46,6 +46,8 @@ Check the existing tables
 
 You may see some tables name as wp_, wc_ at first which mean Wordpress and Woocommerce
 
+### wp_comments
+
 The review and comment we just leave are storing in wp_comments, let see can we found something
 
 Check the attributes of the table
