@@ -1,6 +1,6 @@
 ## Discover Sensitive Information in MySQL (continue)
 
-**wp_usermeta**
+### wp_usermeta
 
 The next table is wp_usermeta, which storing metadata of users
 
@@ -23,7 +23,7 @@ You can see it storing user information
 
 ![圖片](https://user-images.githubusercontent.com/74434769/141664540-796c12d3-8051-49a9-90ac-eb392f475dee.png)
 
-**wp_users**
+### wp_users
 
 There is also a table call wp_users to store the account information
 
