@@ -29,6 +29,8 @@ The condition is sum of the error occurred in the pass 12 minutes more than 50 t
 
 Once you finish the rule setting, click `Apply` on the top right and save the dashboard
 
+### You may need to wait some time for collector generate server status information each 10 minutes. You may also try some error to test the alert.
+
 This is the sample of the alert, there will have a vertical red line on the graph 
 
 ![圖片](https://user-images.githubusercontent.com/74434769/141332097-95b6d93e-2443-4063-bd58-73db31634cd0.png)
