@@ -1,4 +1,4 @@
-## What you have learned?
+## What you have learnt?
 
 - **Install Wordpress**
 - **Install WooCommerce**
