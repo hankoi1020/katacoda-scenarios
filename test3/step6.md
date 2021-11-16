@@ -3,18 +3,18 @@ In the iThemes Security Dashboard, there are some graph and list to help user ma
 
 ## Dashboard Explanation
 
-**Site Scan**
+### Site Scan
 
 Storing website status by each scan
 
 ![圖片](https://user-images.githubusercontent.com/74434769/141385541-aeafdc90-66fa-4a36-a5be-8454ee61386f.png)
 
 
-**Brute Force Attack**
+### Brute Force Attack
 
 This is a graph showing how many fail login attempt
 
-**Banned Users**
+### Banned Users
 
 This is a list showing banned users with notes
 
