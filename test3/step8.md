@@ -18,6 +18,8 @@ After select a activity type, press filter. You may see a Create Alert button in
 
 ## Compliance of GDPR
 
+### Right of erasure 
+
 - **Delete Personal data** : In the User Policies session, go to Global page and there has a Personal Data function. It can enable the data erase and terminate user sessions.
 
 ![圖片](https://user-images.githubusercontent.com/74434769/141600728-95723943-019a-4775-b2b1-d628089bc07d.png)
