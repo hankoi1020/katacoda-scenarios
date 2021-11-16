@@ -43,5 +43,5 @@ You may also select the time range and refresh time by clicking this on top righ
 
 **Custom Statistics**
 
-- **User can custom a graph by select different variables
+- **User can custom a graph by select different variables**
 
