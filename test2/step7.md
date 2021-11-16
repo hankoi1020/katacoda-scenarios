@@ -16,4 +16,4 @@ There are some example:
 - **Many login attempt error, the system might subject to brute force attack** (external)
 - **Many data recevied from network, it might be a DDoS attack** (external)
 - **Many data sent out or running many SELECT SQL querys, it should consider whether an insider attack performed to steal data** (insider)
-- **Many DELETE querys, it might someone harming the data (insider)
+- **Many DELETE querys, it might someone harming the data (insider)**
