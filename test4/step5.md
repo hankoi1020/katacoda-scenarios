@@ -80,7 +80,7 @@ You can see your comment and the status
 ![圖片](https://user-images.githubusercontent.com/74434769/141664136-9f550811-36bb-43b9-abcc-71767663af8b.png)
 
 
-## Check the order
+## Check sample order
 
 You may login back to admin account to check the order
 
