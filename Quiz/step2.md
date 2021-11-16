@@ -16,11 +16,3 @@
 >>Q4: Once privileges granted, what we should do? <<
 ( ) Restart database system
 (*) Reload grant table
-
-
-<pre>
-1: True
-2: False
-3: True
-4: Reload grant table
-</pre>
