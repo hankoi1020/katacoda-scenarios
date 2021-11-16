@@ -33,6 +33,8 @@ You may see the Brute Force Attack graph showing the attempts
 
 ![圖片](https://user-images.githubusercontent.com/74434769/141384776-4b7bb0e0-f925-4a6a-8b79-8d99cfeb9f75.png)
 
+### Two-Factor and strong password policy
+
 Secondly, login test with currect password. You may see the website require you setup Two-Factor (Phone, email etc)
 
 ![圖片](https://user-images.githubusercontent.com/74434769/141384926-9a4e3157-3172-4c0d-8cda-baa983dfcd4c.png)
@@ -40,6 +42,8 @@ Secondly, login test with currect password. You may see the website require you 
 After that, the website also require we change the password since our password is too week
 
 ![圖片](https://user-images.githubusercontent.com/74434769/141385407-71f51607-0ae3-43fd-8d52-80671f8a843f.png)
+
+### Log for Auditing and Monitoring
 
 You can also get the detail in Logs
 
