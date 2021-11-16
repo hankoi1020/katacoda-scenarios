@@ -35,7 +35,8 @@ After that, you may go in WP Cerber interface by this button in left hand side.
 
 Admin can find and configure these security function in the **Main Settings** page
 
-**Login Security**
+### Login Security
+
 - **Limit login attempts** : Limit the number of login attempts within a period 
  ![圖片](https://user-images.githubusercontent.com/74434769/141588759-89caed28-580a-424c-bc2c-3272ab3e12c6.png)
 
