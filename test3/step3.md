@@ -1,5 +1,7 @@
 This part is going to install a plugin call **CookieYes** to make website fufill General Data Protection Regulation (GDPR) requirements. 
 
+### Right of access
+
 This plugin can list all the cookies and user can activate a WordPress cookie notice with “accept” and “reject” options in a bar. After user disable the cookie, it will decrease the numbers of running cookie on the website and the website can be more secure. It is making website entirely GDPR compliant. 
 
 ## Installation and Configuration
