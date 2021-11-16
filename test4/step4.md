@@ -50,7 +50,7 @@ WooCommerce have provide function to help website fufill GDPR requirements
 
 Go to WooCommerce > Settings > Accounts & Privacy
 
-First, it include the right to **Erasure** and **Access** 
+First, it related to the right of **Erasure** and **Access** 
 
 It can provide function to request remove personal data and access of data
 
@@ -64,7 +64,7 @@ After a period, those inactive user and order could be remove automatically sinc
 
 ![圖片](https://user-images.githubusercontent.com/74434769/141665869-d5628990-9041-433b-bdd1-c6abbe5063fe.png)
 
-**Create a Privacy Policy page**
+### Create a Privacy Policy page
 
 Go to Setting > Privacy
 
@@ -106,5 +106,5 @@ Click view page to check out the page
 
 ![圖片](https://user-images.githubusercontent.com/74434769/141715139-48f5d885-f31d-4bed-b687-1b9948b65c87.png)
 
-Now the website can fufill the the GDPR privacy policy requirements
+Now the website can fufill the the GDPR privacy policy requirements as well
 
